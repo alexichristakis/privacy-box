@@ -10,8 +10,8 @@ Servo[] servos;
 // mapping of servo index to the positions it takes for each
 // side of the box
 int[][] positions = { 
-  { 0, 0, 0, 0 },
-  { 0, 0, 0, 0 },
+  { 0, 0, 0, 0 }, // check key for which servo
+  { 0, 0, 0, 0 }, // L, T, R, B (index => side mapping)
   { 0, 0, 0, 0 },
   { 0, 0, 0, 0 },
   { 0, 0, 0, 0 },
