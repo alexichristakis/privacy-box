@@ -13,9 +13,13 @@ Although we’re aware of how compromised our digital privacy is, it’s unclear
 ### Electronics
 
 7 180deg micro-servos (~$28)
+
 1 MPU6050 accelerometer (~$20)
+
 1 ESP32 (~$20)
+
 1 10amp 5v power brick (~15)
+
 1 power switch (<$1)
 
 #### Total: ~$85
@@ -23,14 +27,23 @@ Although we’re aware of how compromised our digital privacy is, it’s unclear
 ### Enclosure
 
 1 24in x 24in sheet of 0.24in thick plywood (~$7)
+
 7x3 male headers for the servos
+
 2x16 male headers for an ESP mount
+
 wood glue
+
 jumper wires, solder
+
 various screws, and nuts to secure the box
+
 black & white acrylic paint
+
 access to laser cutter
+
 access Makerbot 3D printer
+
 
 ## Fabrication
 
