@@ -32,9 +32,12 @@ int activatedSide = 0;
 // calibration for accelerometer
 float calibration[] = { 0, 0 };
 
+const int MIN_MICRO = 5;
+const int MAX_MICRO = 2600;
+
 void setup() {
   for (int i = 0; i < NUM_SERVOS; i++) {
-    servos[i].attach(servoPins[i], 5, 2500);
+    servos[i].attach(servoPins[i], MIN_MICRO, MAX_MICRO);
   }
 
   Wire.begin(2, 15);
@@ -48,7 +51,7 @@ void setup() {
 
 // sweep a servo through it's range
 void sweepServo(int servo) {
-   for (int pos = 5; pos < 2600; pos += 100) {
+   for (int pos = MIN_MICRO; pos <= MAX_MICRO; pos += 100) {
     servos[servo].writeMicroseconds(pos);
     Serial.println(pos);
     delay(500);
