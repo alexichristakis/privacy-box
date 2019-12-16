@@ -2,6 +2,10 @@
 
 A simple box with 7 eyes that look towards any side that is tapped. The enclosure is constructed out of laser-cut plywood, 3D printed mounting brackets, and wood glue. All fabrication files can be found under the fabrication folder.
 
+## Artist Statement
+
+Although we’re aware of how compromised our digital privacy is, it’s unclear where the digital and physical divide exists. Data collected from online and other digital activities have far reaching physical consequences, especially with the advent of IOT devices. Where we travel, what we do, eat, buy--even the smallest bits of data in aggregate threaten our privacy. By using the most abstract representation of an eye this project simulates the feeling of being watched. Even the smallest disturbance to a side of the box triggers an immediate response.
+
 ![Finished box](assets/finished_box.jpeg)
 
 ## Fabrication
